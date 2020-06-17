@@ -1,0 +1,163 @@
+
+/**
+    Presentation Styles
+    (Gehören nicht zum Styleguide)
+ */
+#content {
+    width: 800px;
+    position: absolute;
+    left: 50%;
+    margin-left: -400px;
+}
+.entry {
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+    margin-bottom: 20px;
+}
+
+/**
+    Global Styles
+ */
+* {
+    font-family: Arial;
+}
+
+/**
+    Typographie
+ */
+h1 {
+    color: #3EB36A;
+    font-size: 30px;
+    padding-bottom: 36px;
+}
+
+
+/**
+    Colors
+ */
+.color {
+    display: inline-block;
+    width: 100px;
+    height: 18px;
+    float: right;
+}
+.color-primary {
+    background-color: #3EB36A;
+}
+.color-secondary {
+    background-color: #82FFB2;
+}
+.color-background {
+    background-color: #9CFFC2;
+}
+.color-contrast-1 {
+    background-color: #B31F17;
+}
+.color-contrast-2 {
+    background-color: #FF4E45;
+}
+
+/**
+    Images
+ */
+div.image {
+    position: relative;
+    display: inline-block;
+
+    border-radius: 15px;
+    line-height: 0;
+    overflow: hidden;
+}
+div.image span.caption {
+    position: absolute;
+    left: 0;
+    bottom: 0px;
+    text-align: center;
+    display: inline-block;
+    width: 100%;
+    padding: 10px 0;
+    background: rgba(0,0,0,0.5);
+    color: white;
+    line-height: normal;
+}
+
+div.image-invert span.caption {
+    background: rgba(255,255,255,0.3);
+}
+
+/**
+    Videos
+ */
+
+/**
+    Tables
+ */
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+.table th {
+    text-align: left;
+    font-weight: normal;
+    background-color: #666;
+    color: white;
+    padding: 10px 15px;
+}
+.table tbody tr {
+    border-bottom: 1px solid #666;
+}
+.table tbody tr td {
+    padding: 10px 15px;
+}
+
+
+.table td.cell-right {
+    text-align: right;
+}
+.table-striped tbody tr:nth-child(even) {
+    background-color: #eee;
+}
+
+/**
+    Buttons
+ */
+.button {
+    display: inline-block;
+    padding: 15px 15px;
+    color: black;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.25s;
+    margin-bottom: 5px;
+}
+
+/** Sizes **/
+.button-small {
+    padding: 5px 10px;
+}
+.button-big {
+    padding: 25px 25px;
+}
+
+/** Colors **/
+.button-primary {
+    background-color: #82FFB2;
+}
+.button-primary:hover {
+    background-color: #abffcb;
+}
+.button-secondary {
+    background-color: #B31F17;
+    color: white;
+}
+.button-secondary:hover {
+    background-color: #FF4E45;
+}
+.button-light {
+    background-color: #FF4E45;
+    color: white;
+}
+.button-light:hover {
+    background-color: #ea3d34;
+}
